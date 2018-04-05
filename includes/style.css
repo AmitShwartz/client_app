@@ -1,0 +1,33 @@
+*{	margin: 0 auto;
+	padding: 0px; 
+	font-family: 'Roboto', sans-serif;
+}
+
+.submit{
+	height: 40px;
+	width: 80px;
+	background-color: green;
+	text-align: center;
+}
+
+h1,h3{	text-align: center;
+}
+
+h1{
+	padding: 20px;
+}
+
+.white{
+	color:white;
+}
+
+#wrapper{
+	background: linear-gradient(black, white);
+	height: 600px;
+}
+#res{
+	width: 500px;
+	height: 100px;
+	background-color: white;
+	border-radius: 15px; 
+}

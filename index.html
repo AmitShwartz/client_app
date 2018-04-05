@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>get data page</title>
+		<link rel="stylesheet" href="includes/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	        crossorigin="anonymous">
+	</head>
+	<body id="wrapper">
+		<div class="container">
+		   	<h1 class="white">3 Operations Calculator</h1>
+		    <div class="row justify-content-md-center">
+		        <div class="col col-lg-4 white">
+		            <label>num1</label><br>
+		            <input type="text" name="a[num1]" class="form-control" placeholder="0" aria-label="" aria-describedby="basic-addon1">
+		            <label>num2</label><br>
+		            <input type="text" name="a[num2]" class="form-control" placeholder="0" aria-label="" aria-describedby="basic-addon1"> 
+		            <label>num3</label><br>
+		            <input type="text" name="a[num3]" class="form-control" placeholder="0" aria-label="" aria-describedby="basic-addon1">
+		            <label>Operations</label><br>
+		            <select class="custom-select" name="a[func]">
+					  <option value="sum" selected>sum</option>
+					  <option value="mult">mult</option>
+					  <option value="avg">avg</option>
+					</select>   
+		         	<br><br>
+		            <button class="btn btn-outline-dark" id="post">POST</button>
+		            <button class="btn btn-outline-dark" id="get">GET</button>
+		            <button class="btn btn-outline-dark" id="put">PUT</button>
+		        </div>
+	        </div><br>
+	        <div id="res">
+	        <h1 class="result">Result</h1>
+	    	</div>
+	    </div>
+	    <script src="includes/main.js"></script>	
+	</body>
+</html>
